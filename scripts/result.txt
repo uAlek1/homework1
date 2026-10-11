@@ -1,0 +1,63 @@
+Column
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+
+ Performance counter stats for '../bin/homework1 test ../matrix.bin column' (10 runs):
+
+       601,966,518      L1-dcache-loads                                                         ( +-  0.05% )
+        26,088,507      L1-dcache-load-misses            #    4.33% of all L1-dcache accesses   ( +-  0.39% )
+       833,414,905      instructions                     #    0.36  insn per cycle              ( +-  0.09% )
+     2,298,505,126      cycles                                                                  ( +-  1.14% )
+
+            0.6348 +- 0.0102 seconds time elapsed  ( +-  1.61% )
+
+Row
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+
+ Performance counter stats for '../bin/homework1 test ../matrix.bin row' (10 runs):
+
+       582,596,091      L1-dcache-loads                                                         ( +-  0.07% )
+        11,528,833      L1-dcache-load-misses            #    1.98% of all L1-dcache accesses   ( +-  0.77% )
+       829,636,900      instructions                     #    0.94  insn per cycle              ( +-  0.14% )
+       885,378,516      cycles                                                                  ( +-  0.93% )
+
+           0.25837 +- 0.00445 seconds time elapsed  ( +-  1.72% )
+
+Row AVX2
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+L1-norm = 549786737213
+
+ Performance counter stats for '../bin/homework1 test ../matrix.bin avx' (10 runs):
+
+       328,713,967      L1-dcache-loads                                                         ( +-  0.36% )
+        11,487,180      L1-dcache-load-misses            #    3.49% of all L1-dcache accesses   ( +-  0.95% )
+       468,859,356      instructions                     #    0.64  insn per cycle              ( +-  0.99% )
+       736,103,519      cycles                                                                  ( +-  1.44% )
+
+           0.21236 +- 0.00439 seconds time elapsed  ( +-  2.07% )
+
