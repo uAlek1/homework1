@@ -6,3 +6,6 @@ perf stat -r 10 -e L1-dcache-loads,L1-dcache-load-misses,instructions,cycles ../
 
 echo "Row AVX2" >> result.txt
 perf stat -r 10 -e L1-dcache-loads,L1-dcache-load-misses,instructions,cycles ../bin/homework1 test ../matrix.bin avx &>> result.txt
+
+echo "Read file" >> result.txt
+perf stat -r 10 -e L1-dcache-loads,L1-dcache-load-misses,instructions,cycles ../bin/homework1 test ../matrix.bin avxx &>> result.txt
